@@ -1,0 +1,47 @@
+====================================================
+16:34:37  PHASE A START 
+16:34:38  DOW wells after CONUS filter: 117660 
+16:34:39  Case NWIS site IDs (to exclude): 8585 
+16:34:39  !! States in DOW but not in FIPS list: Nevada, Utah, Wyoming 
+16:34:39  States to pull: 23 
+16:34:53    [Alabama] 5607 sites in 13 sec 
+====================================================
+16:50:12  PHASE A START (v2) 
+16:50:13  DOW wells after CONUS filter: 117660 
+16:50:14  Case NWIS site IDs to exclude: 8585 
+16:50:14  States to pull: 26 
+16:50:16    [Arkansas] 5644 sites in 1 sec 
+16:51:10    [California] 18418 sites in 54 sec 
+16:51:34    [Colorado] 8147 sites in 24 sec 
+16:51:51    [Illinois] 3622 sites in 17 sec 
+16:52:06    [Indiana] 3850 sites in 15 sec 
+16:55:06    [Kansas/Chloride] ERROR: HTTP 504 Gateway Timeout. 
+16:55:18    [Kansas] 9271 sites in 193 sec 
+16:55:39    [Kentucky] 3554 sites in 21 sec 
+16:56:04    [Louisiana] 11584 sites in 24 sec 
+16:56:21    [Michigan] 2875 sites in 17 sec 
+16:56:33    [Mississippi] 4880 sites in 12 sec 
+16:56:57    [Missouri] 3313 sites in 24 sec 
+16:57:42    [Montana] 8038 sites in 45 sec 
+16:58:06    [Nebraska] 3314 sites in 24 sec 
+16:58:29    [Nevada] 2559 sites in 23 sec 
+16:59:00    [New Mexico] 7709 sites in 30 sec 
+16:59:42    [New York] 7853 sites in 42 sec 
+17:00:21    [North Dakota] 9533 sites in 39 sec 
+17:01:08    [Ohio] 2082 sites in 47 sec 
+17:01:50    [Oklahoma] 6166 sites in 42 sec 
+17:02:10    [Pennsylvania] 6793 sites in 20 sec 
+17:02:35    [Tennessee] 2538 sites in 25 sec 
+17:02:51    [Texas] 7707 sites in 16 sec 
+17:03:36    [Utah/Chloride] ERROR: HTTP 500 Internal Server Error. 
+17:03:47    [Utah] 5796 sites in 56 sec 
+17:04:06    [West Virginia] 3261 sites in 18 sec 
+17:04:25    [Wyoming] 3317 sites in 19 sec 
+17:04:25  Total candidate sites across states: 157431 
+17:04:26  After dropping case site IDs: 149980 remain 
+17:04:26  Computing distance to nearest orphan well... 
+17:04:28  Distance computation: 3 sec 
+17:04:28  Sites >=5 km from any orphan well: 132569 of 149980 candidates 
+17:04:29  Phase A complete. Wrote: /Users/kelechielechi/orphan-wells-validation/data/processed/controls_phaseA_candidates.csv 
+17:04:29  PHASE A END 
+====================================================
