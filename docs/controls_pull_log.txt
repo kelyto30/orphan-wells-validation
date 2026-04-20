@@ -45,3 +45,71 @@
 17:04:29  Phase A complete. Wrote: /Users/kelechielechi/orphan-wells-validation/data/processed/controls_phaseA_candidates.csv 
 17:04:29  PHASE A END 
 ====================================================
+====================================================
+17:29:32  PHASE B PILOT START (Pennsylvania) 
+17:29:34  PA candidate control sites: 4852 
+17:29:34  Unique site IDs to query: 4852 
+17:29:34  Batches per analyte: 25 (batch size: 200) 
+17:29:34  --- Pulling Chloride (25 batches) --- 
+17:30:20      retry 1 after 30s (err: HTTP 500 Internal Server Error.) 
+17:31:35      retry 2 after 60s (err: HTTP 500 Internal Server Error.) 
+17:33:14    batch 5/25: cumulative 2393 rows, last batch 4.1s 
+17:33:33    batch 10/25: cumulative 3766 rows, last batch 3.8s 
+17:33:54    batch 15/25: cumulative 6655 rows, last batch 4.0s 
+17:34:13    batch 20/25: cumulative 8055 rows, last batch 4.1s 
+17:34:30    batch 25/25: cumulative 10330 rows, last batch 0.7s 
+====================================================
+17:38:51  PHASE B PILOT START v2 (Pennsylvania) 
+17:38:53  PA candidate control sites: 4852 
+17:38:53  Unique site IDs to query: 4852 
+17:38:53  Batches per analyte: 25 (size 200) 
+17:38:53  --- Pulling Chloride (25 batches) --- 
+17:39:16    batch 5/25: cumulative 2393 rows, last batch 4.2s 
+17:39:45    batch 10/25: cumulative 3766 rows, last batch 6.0s 
+17:40:06    batch 15/25: cumulative 6655 rows, last batch 4.0s 
+17:40:30    batch 20/25: cumulative 8055 rows, last batch 4.0s 
+17:40:50    batch 25/25: cumulative 10330 rows, last batch 0.1s 
+17:40:51    Chloride done: 10330 measurements in 2.0 min 
+17:40:51  --- Pulling Total dissolved solids (25 batches) --- 
+17:41:36      retry 1 after 30s (err: HTTP 500 Internal Server Error.) 
+17:42:51      retry 2 after 60s (err: HTTP 500 Internal Server Error.) 
+17:44:37      FAIL after 3 attempts: HTTP 500 Internal Server Error. 
+====================================================
+17:49:21  PHASE B PILOT START v3 (Pennsylvania) 
+17:49:23  PA candidate control sites: 4852 
+17:49:23  Unique site IDs to query: 4852 
+17:49:23  Batches per analyte: 25 (size 200) 
+17:49:23  --- Pulling Chloride (25 batches) --- 
+17:49:44    batch 5/25: cumulative 2393 rows, fails 0, last batch 3.9s 
+17:50:12    batch 10/25: cumulative 3766 rows, fails 0, last batch 6.1s 
+17:50:31    batch 15/25: cumulative 6655 rows, fails 0, last batch 3.9s 
+17:50:52    batch 20/25: cumulative 8055 rows, fails 0, last batch 3.9s 
+17:51:09    batch 25/25: cumulative 10330 rows, fails 1, last batch 0.0s 
+17:51:09    Chloride done: 10330 rows, 1 failed batches, 1.8 min  [checkpoint saved] 
+17:51:09  --- Pulling Total dissolved solids (25 batches) --- 
+17:51:48    batch 5/25: cumulative 4323 rows, fails 0, last batch 8.7s 
+17:52:17    batch 10/25: cumulative 7741 rows, fails 0, last batch 8.5s 
+17:52:48    batch 15/25: cumulative 12691 rows, fails 0, last batch 3.9s 
+17:53:07    batch 20/25: cumulative 15806 rows, fails 0, last batch 4.0s 
+17:53:24    batch 25/25: cumulative 18575 rows, fails 0, last batch 1.5s 
+17:53:24    Total dissolved solids done: 18575 rows, 0 failed batches, 2.3 min  [checkpoint saved] 
+17:53:24  --- Pulling Sulfate (25 batches) --- 
+17:53:53    batch 5/25: cumulative 2290 rows, fails 0, last batch 5.1s 
+17:54:16    batch 10/25: cumulative 3591 rows, fails 0, last batch 4.8s 
+17:54:42    batch 15/25: cumulative 6075 rows, fails 0, last batch 5.3s 
+17:55:03    batch 20/25: cumulative 7408 rows, fails 0, last batch 5.0s 
+17:55:25    batch 25/25: cumulative 8700 rows, fails 0, last batch 2.3s 
+17:55:25    Sulfate done: 8700 rows, 0 failed batches, 2.0 min  [checkpoint saved] 
+17:55:25  --- Pulling Methane (25 batches) --- 
+17:55:30    batch 5/25: cumulative 14 rows, fails 2, last batch 0.9s 
+17:55:35    batch 10/25: cumulative 106 rows, fails 2, last batch 0.9s 
+17:55:43    batch 15/25: cumulative 865 rows, fails 2, last batch 2.4s 
+17:55:47    batch 20/25: cumulative 902 rows, fails 2, last batch 0.8s 
+17:55:54    batch 25/25: cumulative 1222 rows, fails 3, last batch 0.5s 
+17:55:54    Methane done: 1222 rows, 3 failed batches, 0.5 min  [checkpoint saved] 
+17:55:54  Total raw measurements (all analytes): 38827 
+17:55:54  Censored (below detection): 1211 of 38827 (3.1%) 
+17:55:54  Pilot complete: 6.5 min total 
+17:55:54  Wrote: /Users/kelechielechi/orphan-wells-validation/data/processed/controls_wq_Pennsylvania.csv 
+17:55:54  PHASE B PILOT END v3 
+====================================================
