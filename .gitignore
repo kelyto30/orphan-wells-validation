@@ -1,0 +1,25 @@
+# Data — never commit raw downloads or processed intermediates
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Figures — regenerable
+figures/*.png
+figures/*.pdf
+!figures/.gitkeep
+
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+
+# macOS
+.DS_Store
+
+# Logs and temp
+*.log
+*.tmp
+/tmp/
